@@ -9,10 +9,13 @@ import { FormsModule } from '@angular/forms';
 })
 export class UserInputComponent {
 
-
+  enteredInitialInvestment = '0';
+  enteredAnnualInvestment = '0';
+  enteredExpextedInvestment = '5';
+enteredDuration = '10';
   onSubmit(){
 
   }
 
-  
+
 }
